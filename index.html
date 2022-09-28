@@ -4,54 +4,93 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HomePage</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+   
+    <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   </head>
   <body class="p1">
     <div class="container">
     <h1 style="text-align: center;">Homepage</h1>
-    
-        <ul class="nav navbar-nav">
-            <li class="active"><a href="page1.html"> Playstation 1</a></li>
-            <li> <a href="page2.html">Playstation 2</a></li>
-            <li> <a href="page3.html">Playstation 3</a></li>
-            <li> <a href="page4.html">Playstation 4</a></li>
-            <li> <a href="page5.html">Playstation 5</a></li>
-        </ul>
-    </div> 
-
-         <div class="row">
-            <li>December 3, 1994</li>
-            <li>October 26, 2000</li>
-            <li>Novemeber 11, 2006</li>
-            <li>Novemeber 15, 2013</li>
-            <li>Novemeber 12, 2020</li>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Homepage</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="page1.html">Playstation 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page2.html">Playstation 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page3.html">Playstation 3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page4.html">Playstation 4</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page5.html">Playstation 5</a>
+            </li>
+            </ul>
         </div>
+      </div>
+    </nav>
+    
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://th.bing.com/th/id/OIP.jl99lh8Q0skfJU8UjoF51AHaFq?w=228&h=180&c=7&r=0&o=5&pid=1.7" class="d-block" width="300" alt="Playstation Emblem">
+        </div>
+        <div class="carousel-item">
+          <img src="https://th.bing.com/th/id/OIP.Cc6zxBAbZgC6OifBn66O8gHaEK?w=321&h=180&c=7&r=0&o=5&pid=1.7" class="d-block" width="300" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://th.bing.com/th/id/OIP.jQC3JpFCeL7scZwQ8wTAiQHaEK?w=299&h=180&c=7&r=0&o=5&pid=1.7" class="d-block" width="300" alt="...">
+        </div>
+      </div>
     </div>
-   
-  <ol>
-    <li>Playstation 1</li>
-     <a href="https://www.bing.com/images/search?q=playstation+1&form=HDRSC3&first=1&tsc=ImageHoverTitle">
-     <img src="https://th.bing.com/th/id/OIP.MZWuOmLFp9zWJUl-scS5UwHaD_?w=326&h=180&c=7&r=0&o=5&pid=1.7">
-     </a>
-   <li>Playstation 2</li>
+   <br>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-4">Playstation 1
+      <a href="https://www.bing.com/images/search?q=playstation+1&form=HDRSC3&first=1&tsc=ImageHoverTitle">
+      <img src="https://th.bing.com/th/id/OIP.MZWuOmLFp9zWJUl-scS5UwHaD_?w=326&h=180&c=7&r=0&o=5&pid=1.7">
+      </a>
+    </div>
+      <div class="col-xs-4">Playstation 2
         <a href="https://www.bing.com/images/search?q=playstation%202&qs=n&form=QBIR&sp=-1&pq=playstation%202&sc=10-13&cvid=7AC6DDF6071142B2BD4E5FFB78912968&ghsh=0&ghacc=0&first=1&tsc=ImageHoverTitle">
         <img src="https://www.hit-japan.com/console2/J2388519001.jpg" width="200" >
         </a>
-    <li> Playstation 3</li>
+      </div>
+      <div class="col-xs-4">Playstation 3
         <a href="https://www.bing.com/images/search?q=playstation%203&qs=n&form=QBIRMH&sp=-1&pq=playstation%203&sc=10-13&cvid=41F29623C9EA40A485EEF928028BB411&ghsh=0&ghacc=0&first=1&tsc=ImageHoverTitle">
         <img src="https://i5.walmartimages.com/asr/7a12e9c5-63a8-4515-ad77-b280b4a33cd8_1.40cf5ebcb3a1223c4220922d01d64efb.jpeg" width="300">
         </a>
-    <li>Playstation 4</li>
-        <a href="https://www.bing.com/images/search?q=playstation%204&qs=n&form=QBIR&sp=-1&pq=playstation%20&sc=10-12&cvid=228E47A9C66145158EE6C9FF497E62A4&ghsh=0&ghacc=0&first=1&tsc=ImageHoverTitle">
-        <img src="https://th.bing.com/th/id/R.7850aea06667663baeda50ff7e2302bf?rik=wNQ%2b8UiGXg0njQ&pid=ImgRaw&r=0" width="300">
-        </a>
-    <li>Playstation 5</li>    
-        <a href="https://www.bing.com/images/search?q=playstation%205&qs=n&form=QBIRMH&sp=-1&pq=playstation%205&sc=10-13&cvid=40C5C52E6CAF408F9D69C7EE734F543E&ghsh=0&ghacc=0&first=1&tsc=ImageHoverTitle">
-        <img src="https://th.bing.com/th/id/R.066c664d7d30cc6fe109a987072a8a80?rik=flpQr97nj41yKA&pid=ImgRaw&r=0" width="300">
-        </a>
-  </ol></div>
+      </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-6">Playstation 4
+      <a href="https://www.bing.com/images/search?q=playstation%204&qs=n&form=QBIR&sp=-1&pq=playstation%20&sc=10-12&cvid=228E47A9C66145158EE6C9FF497E62A4&ghsh=0&ghacc=0&first=1&tsc=ImageHoverTitle">
+      <img src="https://th.bing.com/th/id/R.7850aea06667663baeda50ff7e2302bf?rik=wNQ%2b8UiGXg0njQ&pid=ImgRaw&r=0" width="300">
+      </a>
+    </div>
+    <div class="col-xs-6">Playstation 5    
+      <a href="https://www.bing.com/images/search?q=playstation%205&qs=n&form=QBIRMH&sp=-1&pq=playstation%205&sc=10-13&cvid=40C5C52E6CAF408F9D69C7EE734F543E&ghsh=0&ghacc=0&first=1&tsc=ImageHoverTitle">
+      <img src="https://th.bing.com/th/id/R.066c664d7d30cc6fe109a987072a8a80?rik=flpQr97nj41yKA&pid=ImgRaw&r=0" width="300">
+      </a>
+    </div>
+  </div>
+</div>
+
+<br>
+
+
+  </div>
   <footer>
-    <table class="table table-bordered">
+    <table class="table table-bordered" >
         <tr>
             <th>Playstation 1</th>
             <th>Playstation 2</th>
@@ -66,8 +105,8 @@
             <td>Novemeber 15, 2013</td>
             <td>Novemeber 12, 2020</td>
         </tbody>
-    </table>
+     </body> </table>
   </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-  </body>
+
 </html>
